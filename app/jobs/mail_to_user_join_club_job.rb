@@ -7,3 +7,5 @@ class MailToUserJoinClubJob < ApplicationJob
     ClubMailer.mail_to_user_join_club(@user, @club).deliver_later
   end
 end
+#end
+
